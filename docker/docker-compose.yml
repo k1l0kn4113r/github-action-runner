@@ -1,0 +1,9 @@
+version: '3'
+services:
+  github-runner:
+    build: .
+    container_name: github-actions-runner
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - RUNNER_ALLOW_RUNASROOT=1
