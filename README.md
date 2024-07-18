@@ -1,6 +1,7 @@
 # GitHub Actions Self-Hosted Runner with Docker
 
 This repository contains the configuration files to set up a GitHub Actions self-hosted runner using Docker. The runner is configured to run on an ARM64 architecture and includes necessary dependencies such as Node.js and Git.
+I use this Self-Hosted Runner for Terraform deployments on Azure.
 
 ## Prerequisites
 
